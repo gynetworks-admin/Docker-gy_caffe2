@@ -2,6 +2,7 @@ sudo docker run \
         --gpus all\
         -it \
         --rm \
+        --shm-size 4G \
         --name="gy_caffe2" \
         --volume $(pwd):$(pwd) \
         --workdir="$(pwd)" \
