@@ -1,4 +1,5 @@
 sudo docker run \
+        --gpus all\
         -it \
         --rm \
         --name="gy_caffe2" \
